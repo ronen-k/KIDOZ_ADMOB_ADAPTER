@@ -2,6 +2,9 @@
 Kidoz AdMob mediation adapter
 </br>
 
+***Please note - Currently Admob mediation is not available for Apps opt-in to Designed For Families program. Google should add this support by February-March 2018.
+Till then, you can integrate KIDOZ ads directly to your apps.
+    
 **Prerequisits:**
 * To use the Kidoz SDK adapter for AdMob you should make sure you have:
 1. AdMob Mediation integrated in your project.
@@ -14,7 +17,9 @@ Kidoz AdMob mediation adapter
     compile 'com.android.support:support-v4:23.0.+'
     compile 'com.kidoz.sdk:KidozSDK:0.8.2.1@aar'
 ```
+
 3.2. Please make sure you have a set up Kidoz publisher account.
+
 3.3. The plugin itself consists of the java files inside the 'pluginFiles' directory, copy this entire package to your own project.
 
 3.4. Set your Kidoz PublisherId & PublisherToken in the adapter using the following:
@@ -63,10 +68,10 @@ KidozManager.setRewardedEvents(<new BaseInterstitial.IOnInterstitialRewardedEven
  
 
 </br> 
-License
---------
 
-    Copyright 2015 KIDOZ, Inc.
+License:
+
+    Copyright 2015 KIDOZ, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
